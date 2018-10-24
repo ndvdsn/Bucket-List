@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bucket</title>
+    <script src="./js/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <h1>Bucket</h1>
+    <div class="wrapper">
+      <div>
+        <h2>Add something to your bucket</h2>
+        <form id="bucket-form">
+          <div>
+            <label for="listItem">List Item:</label>
+            <input type="text" id="listItem"/>
+          </div>
+
+          <input type="submit" value="Save" id="save"/>
+        </form>
+      </div>
+      <div>
+        <h2>Your Bucket:</h2>
+        <div id="full-bucket"></div>
+      </div>
+    </div>
+  </body>
+</html>
